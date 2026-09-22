@@ -1,12 +1,12 @@
-### Hi, I'm Wang Han
+### Small tools that actually run
 
-Computer Science student (SQA-AD programme, UESTC · Chengdu, China). I build small, complete
-tools and then write down what actually happened — real test output, not adjectives.
+I build things that fix a problem I hit myself, then publish the evidence: the real test output,
+the failure the tool repairs, and what it cannot do.
 
-Most of what is here started as a problem on my own machine: a tunnel that dies and leaves a
-webhook provider pointing at a URL that no longer exists, dead console windows piling up on the
-taskbar, MySQL and Oracle eating a gigabyte of RAM at every boot. Each repo is the real fix,
-generalised enough that a stranger can clone it and run it.
+Most of what is here started on my own machine — a tunnel that dies and leaves a webhook provider
+pointing at a URL that no longer exists, dead console windows piling up on the taskbar, database
+services eating a gigabyte of RAM at every boot. Each repo is the real fix, generalised enough
+that a stranger can clone it and run it.
 
 ---
 
@@ -17,7 +17,7 @@ generalised enough that a stranger can clone it and run it.
 | [rag-support-bot](https://github.com/uhygyuf/rag-support-bot) | Support chatbot that answers from a company's own docs (real business content, not dummy data), says "I don't know" instead of inventing, and files a ticket for a human | n8n · Supabase pgvector · DeepSeek |
 | [service-tunnel-watchdog](https://github.com/uhygyuf/service-tunnel-watchdog) | Keeps a local service **and** its public tunnel alive on Windows — and re-registers the service when the tunnel comes back with a new hostname | PowerShell |
 | [zombie-window-cleaner](https://github.com/uhygyuf/zombie-window-cleaner) | Closes the orphaned console windows that service launchers leave behind, on a schedule, without ever touching the running service | PowerShell |
-| [algorithm-class-demos](https://github.com/uhygyuf/algorithm-class-demos) | Interactive, step-by-step visualizations for a university Data Structures course — the lecture's own C++ code, executed frame by frame with the call stack drawn | HTML/CSS/JS |
+| [algorithm-class-demos](https://github.com/uhygyuf/algorithm-class-demos) | Eleven interactive visualizations for a Data Structures course — the lecture's own C++ code executed frame by frame, with the call stack drawn and a recursion tree that grows as you step. **[Live demo ↗](https://uhygyuf.github.io/algorithm-class-demos/)** | HTML/CSS/JS |
 | [AIMail](https://github.com/uhygyuf/AIMail) | Gmail auto-classification: an LLM reads every message and stars, archives or leaves it alone according to rules written in plain language | Google Apps Script · DeepSeek |
 | [SQL-Dictionary](https://github.com/uhygyuf/SQL-Dictionary) | Offline SQL syntax dictionary — browse by category, one-click copy, bilingual notes, no install and no network | C++ · Qt 6 · SQLite |
 
@@ -33,8 +33,8 @@ generalised enough that a stranger can clone it and run it.
 
 #### Currently
 
-- Data structures and algorithms in C++ (my own implementations, not just notes)
-- LLM application work: retrieval, rule-driven classification, agents that escalate instead of guessing
-- Preparing for a UK BSc top-up in computer science
+- Data structures and algorithms in C++ — my own implementations, not only notes
+- LLM application work: retrieval, rule-driven classification, and agents that escalate instead of guessing
+- Turning the Windows utilities I run daily into repos a stranger can install
 
-<sub>Ask me about any repo in the list above — I can explain the design decisions behind it.</sub>
+<sub>Ask about any repo above — I can explain the design decisions behind it.</sub>
