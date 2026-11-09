@@ -14,12 +14,12 @@ that a stranger can clone it and run it.
 
 | Repo | What it does | Built with |
 |---|---|---|
-| [rag-support-bot](https://github.com/uhygyuf/rag-support-bot) | Support chatbot that answers from a company's own docs (real business content, not dummy data), says "I don't know" instead of inventing, and files a ticket for a human | n8n · Supabase pgvector · DeepSeek |
-| [service-tunnel-watchdog](https://github.com/uhygyuf/service-tunnel-watchdog) | Keeps a local service **and** its public tunnel alive on Windows — and re-registers the service when the tunnel comes back with a new hostname | PowerShell |
-| [zombie-window-cleaner](https://github.com/uhygyuf/zombie-window-cleaner) | Closes the orphaned console windows that service launchers leave behind, on a schedule, without ever touching the running service | PowerShell |
-| [algorithm-class-demos](https://github.com/uhygyuf/algorithm-class-demos) | Eleven interactive visualizations for a Data Structures course — the lecture's own C++ code executed frame by frame, with the call stack drawn and a recursion tree that grows as you step. **[Live demo ↗](https://uhygyuf.github.io/algorithm-class-demos/)** | HTML/CSS/JS |
-| [AIMail](https://github.com/uhygyuf/AIMail) | Gmail auto-classification: an LLM reads every message and stars, archives or leaves it alone according to rules written in plain language | Google Apps Script · DeepSeek |
-| [SQL-Dictionary](https://github.com/uhygyuf/SQL-Dictionary) | Offline SQL syntax dictionary — browse by category, one-click copy, bilingual notes, no install and no network | C++ · Qt 6 · SQLite |
+| [rag-support-bot](https://github.com/hanwang-ai/rag-support-bot) | Support chatbot that answers from a company's own docs (real business content, not dummy data), says "I don't know" instead of inventing, and files a ticket for a human | n8n · Supabase pgvector · DeepSeek |
+| [service-tunnel-watchdog](https://github.com/hanwang-ai/service-tunnel-watchdog) | Keeps a local service **and** its public tunnel alive on Windows — and re-registers the service when the tunnel comes back with a new hostname | PowerShell |
+| [zombie-window-cleaner](https://github.com/hanwang-ai/zombie-window-cleaner) | Closes the orphaned console windows that service launchers leave behind, on a schedule, without ever touching the running service | PowerShell |
+| [algorithm-class-demos](https://github.com/hanwang-ai/algorithm-class-demos) | Eleven interactive visualizations for a Data Structures course — the lecture's own C++ code executed frame by frame, with the call stack drawn and a recursion tree that grows as you step. **[Live demo ↗](https://hanwang-ai.github.io/algorithm-class-demos/)** | HTML/CSS/JS |
+| [AIMail](https://github.com/hanwang-ai/AIMail) | Gmail auto-classification: an LLM reads every message and stars, archives or leaves it alone according to rules written in plain language | Google Apps Script · DeepSeek |
+| [SQL-Dictionary](https://github.com/hanwang-ai/SQL-Dictionary) | Offline SQL syntax dictionary — browse by category, one-click copy, bilingual notes, no install and no network | C++ · Qt 6 · SQLite |
 
 #### How I build
 
